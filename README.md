@@ -8,16 +8,16 @@ you are prompted for it.
 ```bash
 git clone git://github.com/kevinburke/sshpass.git
 cd sshpass
-./configure
-make && make install
+./bootstrap && ./configure && make && sudo make install
 ```
 
 ## Notes
 
-This repository is a mirror of http://sourceforge.net/projects/sshpass/develop
+This is based on http://sourceforge.net/projects/sshpass/develop
 
-Pull requests will not be accepted
+Unlike the other forks, this repo will consider pull requests.
 
 ##### Maintainers
 
-kevin burke <kev+sshpass@inburke.com>
+Robert Vincent <pillarsdotnet@gmail.com>
+
